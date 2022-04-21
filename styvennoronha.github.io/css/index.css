@@ -29,6 +29,23 @@ a {
     margin-right: 30px;
 }
 
+#button{
+    display: inline-block;
+    background-color: #4CE0D2;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px  5px 0px black;
+    margin-right: 0;
+    transition: transform 100ms linear;
+}
+
+#button:hover{
+    color: #000;
+    transform: scale(1.05);
+   }
+   
 
 nav{
     text-align: right;
@@ -42,64 +59,4 @@ a:before{
     height: 10px; 
     margin-right: 10px;
 }
-
-h2{
-    font-family: 'Press Start 2P', sans-serif;
-    color:#136F63;
-    text-shadow: 3px  3px 0px #000; 
-    font-size:30px ;
-}
-  
-
-.button{
-    display: inline-block;
-    background-color: #4CE0D2;
-    height: 60px;
-    line-height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 5px  5px 0px black;
-    margin-right: 0;
-    transition: transform 100ms linear;
-}
-
-.button:hover{
-    color: #000;
-    transform: scale(1.05);
-   }
-
-
- .banner{
-     background-image: url(../assents/Img/fundo1.jpg);
-     height: 790px;
-     border: 10px solid #000;
- }  
-
-
-
-
-
- .banner .wrapper{
-    display: flex;
-    flex-direction: column;
-    width: 640px;
-    margin-top: 115px;
-    margin-left: 90px;
-
-
- }
-
- .banner .box{
-  margin-bottom: 40px;
-
-
- }
-
- .banner .navigation{
-
-    display: flex;
-    justify-content: space-around;
- }
-
-   
 
