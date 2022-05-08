@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap');
+
+.title{
+  font-family: 'Press Start 2P', sans-serif;
+  color:#000;
+  text-shadow: 1px  2px 0px #fff;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  
+  
+}
+
+.skill{
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+
+}
+
+.skill .icon{
+  margin-left: 25px;
+
+}
+
+.bar{
+  background-color: aqua;
+  box-sizing: border-box;
+  appearance: none;
+  border: 5px solid #000;
+  height: 40px;
+  margin-left: 10px;
+
+}
+
+.bar::-webkit-progress-bar{
+  background-color:#39A9DB;
+
+}
+
+
+.bar::-webkit-progress-value{
+  background-color:#011936;
+
+}
+
+.skill .right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.skill .title{
+  margin-bottom: 10px;
+}
+
+.wrapper_skill{
+ display: flex;
+ flex-wrap: wrap;
+ max-width: 960px;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+.wrapper_skill .skill{
+  width: 430px;
+  margin-bottom: 40px;
+}
+
+.wrapper_skill .skill:nth-child(odd){
+  margin-right: 100px;
+}
+.wrapper_skill .bar{
+  width: 320px;
+}
