@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap');
 
 .title{
   font-family: 'Press Start 2P', sans-serif;
@@ -54,23 +53,3 @@
   margin-bottom: 10px;
 }
 
-.wrapper_skill{
- display: flex;
- flex-wrap: wrap;
- max-width: 960px;
- margin-left: auto;
- margin-right: auto;
-
-}
-
-.wrapper_skill .skill{
-  width: 430px;
-  margin-bottom: 40px;
-}
-
-.wrapper_skill .skill:nth-child(odd){
-  margin-right: 100px;
-}
-.wrapper_skill .bar{
-  width: 320px;
-}
