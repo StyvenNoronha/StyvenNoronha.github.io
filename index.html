@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/wrapper.css">
     <link rel="stylesheet" href="css/descricao.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/form.css">
 
     
 
@@ -117,9 +118,20 @@
         </section>
     <section class="section">
         <h2 class="second shadow" id="03">Contato</h2>
-        <div class="wrapper">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScAlSf6Cy-rmth9LWNkam78LZyiZNAkmW-9oPrk1p2Y3bWnXg/viewform?embedded=true" width="1440" height="807" frameborder="0" marginheight="0" marginwidth="0"></iframe>
-    </div>
+        
+        <form action="https://formsubmit.co/styvenn16@gmail.com" method="POST">
+            <label class="label-main"> Nome: </label>
+            <input class="input-main" id="name" type="text" placeholder=" Digite seu Nome">
+             <br>
+            <label class="label-main">E-mail:</label>
+            <input class="input-main" id="email" type="email" placeholder="Digite seu E-mail">
+            <br>
+            <label class="label-main">Mensagem:</label>
+            <textarea class="input-main -text"  id="mensagem" ></textarea>
+
+            <input class="botaod" type="submit" value="Enviar">
+        </form>
+        
     </section>
     <footer class="footer">
        <h2 class="second shadow">Todos os direitos reservados </h2>
