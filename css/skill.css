@@ -33,13 +33,13 @@
 }
 
 .bar::-webkit-progress-bar{
-  background-color:#39A9DB;
+  background-color:#fff;
 
 }
 
 
 .bar::-webkit-progress-value{
-  background-color:#011936;
+  background-color:#43B0F1;
 
 }
 
