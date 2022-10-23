@@ -1,0 +1,13 @@
+.card{
+  background-color: #40BCD8;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 0px #fff;
+}
+
+.-verde  {
+  background-color: #011936;
+}
