@@ -1,33 +1,30 @@
-
-.wrapper_skill{
- display: flex;
- flex-wrap: wrap;
- max-width: 960px;
- margin-left: auto;
- margin-right: auto;
-
+.wrapper_skill {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.wrapper_skill .skill{
+.wrapper_skill .skill {
   width: 430px;
   margin-bottom: 40px;
 }
 
-.wrapper_skill .skill:nth-child(odd){
+.wrapper_skill .skill:nth-child(odd) {
   margin-right: 100px;
 }
-.wrapper_skill .bar{
+.wrapper_skill .bar {
   width: 320px;
 }
 
-.wrapper{
+.wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
 }
 
-.centro{
+.centro {
   text-align: center;
   padding-top: 20px;
 }
