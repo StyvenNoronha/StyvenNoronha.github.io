@@ -52,7 +52,7 @@ nav {
 .ponto:before {
   content: "";
   display: inline-block;
-  background-color: #40bcd8;
+  background-color: #00FFEE;
   width: 10px;
   height: 10px;
   margin-right: 10px;
