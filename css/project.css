@@ -1,0 +1,56 @@
+h5{
+    font: var(--text-md);
+    color: var(--gray-500);
+}
+
+.subtitle{
+  margin-top: 72px;
+  font: var(--subtitle);
+}
+
+.text-md{
+  color: var(--gray-600);
+  font: var(--text-md);
+  font-weight: bold;
+  margin-bottom: 56px;
+}
+
+.project{
+  width: 1040px;
+  height: 584px;
+  gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  gap: 24px;
+  width: 330px;
+  height: 280px;
+  background-color: var(--gray-300);
+  border-radius: 5px;
+}
+
+.card:hover{
+  border: 1px solid var(--gray-400);
+}
+.thumbnail{
+  margin-top: 10px;
+  width: 306px;
+  height: 156px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.project-title{
+  text-align: left;
+  margin: 15px 0px 0px 0px;
+  font: var(--text-sm);
+  color: var(--gray-600);
+  font-weight: 900;
+}
+.project-subtitle{
+  text-align: left;
+  font: var(--text-sm);
+  color: var(--gray-500);
+  margin: 0px;
+}

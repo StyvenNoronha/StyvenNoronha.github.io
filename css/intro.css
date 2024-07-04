@@ -1,0 +1,36 @@
+#intro {
+  height: 750px;
+  object-fit: cover;
+}
+#header {
+  margin-top: 120px;
+  width: 680px;
+  height: 327px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+#foto {
+  margin-bottom: 56px;
+}
+.title {
+  font: var(--subtitle);
+  color: var(--gray-500);
+}
+
+h1 {
+  font: var(--title-lg);
+  color: var(--gray-600);
+  font-weight: bold;
+}
+
+.texto-pequeno {
+  font: var(--text-sm);
+  color: var(--gray-400);
+}
+
+.tags{
+  gap: 16px;
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+

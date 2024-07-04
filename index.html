@@ -1,250 +1,238 @@
 <!DOCTYPE html>
-<html lang="pt_BR">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#05445e" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-
-    <link rel="stylesheet" href="css/reset.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto 5</title>
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/subtitle.css" />
-    <link rel="stylesheet" href="css/box.css" />
-    <link rel="stylesheet" href="css/skill.css" />
-    <link rel="stylesheet" href="css/card.css" />
-    <link rel="stylesheet" href="css/wrapper.css" />
-    <link rel="stylesheet" href="css/descricao.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/form.css" />
-    <link rel="stylesheet" href="css/chuva.css" />
 
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-3RDKWQM1HH"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag("js", new Date())
 
-      gtag("config", "G-3RDKWQM1HH")
-    </script>
+    <link rel="shortcut icon" href="assets/icon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/icon/favicon.ico" type="image/x-icon">
 
-    <title>Styven Noronha</title>
-    <link rel="icon" type="image/x-icon" href="/assents/Img/favicon.png" />
   </head>
   <body>
-    <header>
-      <h1>STYVEN</h1>
+    <section id="intro" class="flex centro">
+      <div id="header">
+        <img
+          id="foto"
+          class="text-centro"
+          src="assets/Avatar.png"
+          alt="foto de perfil"
+        />
 
-      <nav id="menu" class="menu">
-        <a href="#01" class="titulo ponto">Skills</a>
-        <a href="#02" class="titulo ponto">Projetos</a>
-        <a href="#03" class="titulo ponto">Contato</a>
-        <a
-          class="button titulo"
-          href="/assents/arquivo/curriculo.pdf"
-          download="currículo.pdf"
-          >Download CV</a
-        >
-      </nav>
-    </header>
+        <p class="title text-centro">
+          Hello World! Meu nome é
+          <span class="color-red">Styven Noronha</span> e sou
+        </p>
+        <h1 class="text-centro">Desenvolvedor Fullstack</h1>
 
-    <script src="./js/chuva.js"></script>
-    <section class="banner">
-      <div class="wrapper">
-        <div id="box">
-          <h2>Styven Noronha</h2>
-          <h3>Gestor TI</h3>
+        <p class="texto-pequeno text-centro">
+          Transformo necessidades em aplicações reais, evolventes e funcionais.
+          Desenvolvo sistemas através da minha paixão pela tecnologia,
+          contribuindo com soluções inovadoras e eficazes para desafios
+          complexos.
+        </p>
+      </div>
+      <div class="flex tags">
+        <img src="assets/icon/github.png" alt="" />
+        <img src="assets/icon/html.png" alt="" />
+        <img src="assets/icon/css.png" alt="" />
+        <img src="assets/icon/js.png" alt="" />
+        <img src="assets/icon/react.png" alt="" />
+        <img src="assets/icon/node.png" alt="" />
+      </div>
+      <img src="assets/icon/CaretDoubleDown.svg" alt="" />
+    </section>
+    <section class="text-centro">
+      <h3 class="color-red subtitle">Meu trabalho</h3>
+      <p class="text-md">Veja os projetos em destaque</p>
+      <div class="project">
+        <div class="card">
+          <figure class="flex centro">
+            <img
+              class="thumbnail"
+              src="assets/image/Thumbnail_Project-01.png"
+              alt=""
+            />
+            <figcaption>
+              <h4 class="project-title">Travelgram</h4>
+              <p class="project-subtitle">
+                Rede social onde as pessoas mostram os registros de suas viagens
+                pelo mundo
+              </p>
+            </figcaption>
+          </figure>
         </div>
 
-        <div class="navigation">
-          <a
-            class="button titulo"
-            href="/assents/arquivo/curriculo.pdf"
-            download="currículo.pdf"
-            >Download CV</a
-          >
-          <a href="#03" class="button titulo">Contato</a>
+        <div class="card">
+          <figure class="flex centro">
+            <img
+              class="thumbnail"
+              src="assets/image/Thumbnail_Project-02.png"
+              alt=""
+            />
+            <figcaption>
+              <h4 class="project-title">Tech News</h4>
+              <p class="project-subtitle">
+                Homepage de um portal de notícias sobre a área de tecnologia
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="card">
+          <figure class="flex centro">
+            <img
+              class="thumbnail"
+              src="assets/image/Thumbnail_Project-03.png"
+              alt=""
+            />
+            <figcaption>
+              <h4 class="project-title">Página de receita</h4>
+              <p class="project-subtitle">
+                Página com o passo a passo de uma receita para cupcakes
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="card">
+          <figure class="flex centro">
+            <img
+              class="thumbnail"
+              src="assets/image/Thumbnail_Project-04.png"
+              alt=""
+            />
+            <figcaption>
+              <h4 class="project-title">Zingen</h4>
+              <p class="project-subtitle">
+                Landing Page completa e responsiva de um aplicativo de Karaokê
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="card">
+          <figure class="flex centro">
+            <img
+              class="thumbnail"
+              src="assets/image/Thumbnail_Project-05.png"
+              alt=""
+            />
+            <figcaption>
+              <h4 class="project-title">Refund</h4>
+              <p class="project-subtitle">
+                Um sistema para pedido e acompanhamento de reembolso
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="card">
+          <figure class="flex centro">
+            <img
+              class="thumbnail"
+              src="assets/image/Thumbnail_Project-06.png"
+              alt=""
+            />
+            <figcaption>
+              <h4 class="project-title">Página de turismo</h4>
+              <p class="project-subtitle">
+                Página com as principais informações para quem quer viajar para
+                Busan
+              </p>
+            </figcaption>
+          </figure>
         </div>
       </div>
-
-      <div class="divr">
-        <h2>Styven Noronha</h2>
-        <h3>Gestor TI</h3>
+    </section>
+    <section class="service text-centro flex centro">
+      <h3 class="color-red subtitle">Meus serviços</h3>
+      <p class="text-md">Como posso ajudar o seu negócio</p>
+      <div class="service-tag flex">
+        <div class="service-card">
+          <figure class="flex centro">
+            <img src="assets/icon/Devices.svg" alt="" />
+            <figcaption>
+              <h4 class="project-title">Websites e Aplicativos</h4>
+              <p class="project-subtitle">Desenvolvimento de interfaces</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="service-card">
+          <figure class="flex centro">
+            <img src="assets/icon/HardDrives.svg" alt="" />
+            <figcaption>
+              <h4 class="project-title">API e banco de dados</h4>
+              <p class="project-subtitle">Criação de serviços do sistema</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="service-card">
+          <figure class="flex centro">
+            <img class="project-img" src="assets/icon/Infinity.svg" alt="" />
+            <figcaption>
+              <h4 class="project-title">DevOps</h4>
+              <p class="project-subtitle">
+                Gestão e infraestrutura da aplicação
+              </p>
+            </figcaption>
+          </figure>
+        </div>
       </div>
     </section>
-    <section class="section">
-      <h2 class="second" id="01">Skills</h2>
-      <div class="wrapper_skill">
-        <article class="skill">
-          <img class="icon" src="/assents/Img/htmli_logo.png" all="logo HTML" />
-          <div class="right">
-            <h4 class="title">HTML</h4>
-            <progress class="bar" max="100" value="50">50%</progress>
-          </div>
-        </article>
-        <article class="skill">
-          <img class="icon" src="/assents/Img/cssi_logo.png" all="logoCss3" />
-          <div class="right">
-            <h4 class="title">CSS3</h4>
-            <progress class="bar" max="100" value="50">50%</progress>
-          </div>
-        </article>
-        <article class="skill">
-          <img class="icon" src="/assents/Img/jsi_logo.png" all="logo js" />
-          <div class="right">
-            <h4 class="title">Javascript</h4>
-            <progress class="bar" max="100" value="50">50%</progress>
-          </div>
-        </article>
-        <article class="skill">
-          <img
-            class="icon"
-            src="/assents/Img/djangoi_logo.png"
-            all="logo JANGO"
-          />
-          <div class="right">
-            <h4 class="title">Django</h4>
-            <progress class="bar" max="100" value="50">50%</progress>
-          </div>
-        </article>
-        <article class="skill">
-          <img
-            class="icon"
-            src="/assents/Img/Pythoni_logo.png"
-            all="logo PYTHON"
-          />
-          <div class="right">
-            <h4 class="title">Python</h4>
-            <progress class="bar" max="100" value="50">50%</progress>
-          </div>
-        </article>
-        <article class="skill">
-          <img
-            class="icon"
-            src="/assents/Img/bootstrap_logo.png"
-            all="logo PYTHON"
-          />
-          <div class="right">
-            <h4 class="title">Bootstarp</h4>
-            <progress class="bar" max="100" value="50">50%</progress>
-          </div>
-        </article>
+    <section class="contact flex centro">
+      <h3 class="color-red subtitle roxo">Contato</h3>
+      <p id="zero" class="text-md">Veja os projetos em destaque</p>
+      <p class="ultimo-p">
+        Entre em contato ou acompanhe as minhas redes sociais!
+      </p>
+
+      <div class="contact-box flex">
+        <div class="contact-card">
+          <a href="https://www.linkedin.com/in/styven-noronha/" target="_blank">
+            <figure class="flex">
+              <img src="assets/icon/LinkedinLogo.svg" alt="Linkedin Logo" />
+              <figcaption>
+                <p id="zero" class="medio zero-b margem-8">Linkedin</p>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="contact-card flex">
+          <a href="https://www.instagram.com/styvennoronha/" target="_blank">
+            <figure class="flex">
+              <img src="assets/icon/InstagramLogo.svg" alt="Linkedin Logo" />
+              <figcaption class="flex">
+                <p id="zero" class="medio zero-b margem-8">Instagram</p>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="contact-card flex">
+          <a href="https://github.com/StyvenNoronha" target="_blank">
+            <figure class="flex">
+              <img src="assets/icon/GithubLogo.svg" alt="Linkedin Logo" />
+              <figcaption>
+                <p id="zero" class="medio zero-b margem-8">GitHub</p>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="contact-card flex">
+          <a href="mailto:styvenn16@gmail.com" target="_blank">
+            <figure class="flex">
+              <img src="assets/icon/EnvelopeSimple.svg" alt="Linkedin Logo" />
+              <figcaption>
+                <p id="zero" class="medio zero-b margem-8">Email</p>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
       </div>
     </section>
-
-    <h1 class="centro" id="02">Projetos</h1>
-    <section class="-bbranco">
-      <div class="wrapper">
-        <a href="https://github.com/StyvenNoronha/Projeto" class="sp">
-          <figure class="card">
-            <img
-              class="logo"
-              src="/assents/Img/Projeto__ap.png"
-              alt="Projeto_Ap"
-            />
-          </figure>
-        </a>
-        <a href="https://styvennoronha.github.io/" class="sp">
-          <figure class="card -verde">
-            <img class="logo" src="/assents/Img/site.png" alt="esse site" />
-          </figure>
-        </a>
-        <a href="https://login-styvennoronha.vercel.app/" class="sp">
-          <figure class="card -verde">
-            <img
-              class="logo"
-              src="/assents/Img/Logo_React.jpg"
-              alt="desenvolvimento de site feito com React"
-            />
-          </figure>
-        </a>
-        <a href="https://styvennoronha.github.io/copa/" class="sp">
-          <figure class="card -verde">
-            <img
-              class="logo"
-              src="/assents/Img/logo_nlw_Copa.jpg"
-              alt="Desenvolvimento de site do Calendário da Copa do Mundo 2022 "
-            />
-          </figure>
-        </a>
-        <a href="https://styvennoronha.github.io/Rotina/" class="sp">
-          <figure class="card -verde">
-            <img
-              class="logo"
-              src="/assents/Img/logo_nlw_habits.jpg"
-              alt="Desenvolvimento de site da suas rotinas "
-            />
-          </figure>
-        </a>
-
-        <a href="https://styvennoronha.github.io/Links/" class="sp">
-          <figure class="card -verde">
-            <img
-              class="logo"
-              src="/assents/Img/logo_devlinks.jpg"
-              alt="link para contato "
-            />
-          </figure>
-        </a>
-        <a href="https://styvennoronha.github.io/relogio/" class="sp">
-          <figure class="card -verde">
-            <img
-              class="logo"
-              src="/assents/Img/relogio.jpg"
-              alt="Relógio Digital"
-            />
-          </figure>
-        </a>
-      </div>
-    </section>
-    <section class="section">
-      <h2 class="second shadow" id="03">Contato</h2>
-
-      <form action="https://formsubmit.co/styvenn16@gmail.com" method="POST">
-        <label class="label-main"> Nome: </label>
-        <input
-          class="input-main"
-          id="name"
-          name="name"
-          type="text"
-          placeholder=" Digite seu Nome"
-        />
-        <br />
-        <label class="label-main">E-mail:</label>
-        <input
-          class="input-main"
-          id="email"
-          name="email"
-          type="email"
-          placeholder="Digite seu E-mail"
-        />
-        <br />
-        <label class="label-main">Mensagem:</label>
-        <textarea
-          class="input-main -text"
-          name="mensagem"
-          id="mensagem"
-        ></textarea>
-
-        <input class="botaod" type="submit" value="Enviar" />
-      </form>
-    </section>
-    <footer class="footer">
-      <h2 class="second shadow">Todos os direitos reservados</h2>
-    </footer>
   </body>
 </html>

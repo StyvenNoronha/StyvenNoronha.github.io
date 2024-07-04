@@ -1,0 +1,24 @@
+.service {
+  margin-top: 223px;
+  width: 1366px;
+  height: 480px;
+  background-color: var(--gray-100);
+  padding-bottom: 120px;
+}
+.service-tag {
+  margin-top: 56px;
+  width: 888px;
+  height: 155px;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+.service-card {
+  border: 1px solid var(--gray-600);
+  border-radius: 5px;
+  width: 280px;
+  height: 155px;
+}
+
+.project-img {
+  background-position: left;
+}

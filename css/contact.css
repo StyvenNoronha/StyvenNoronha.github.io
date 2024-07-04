@@ -1,0 +1,60 @@
+.contact{
+    margin-top: 128px;
+    
+}
+
+.roxo{
+    color: var(--purple);
+}
+
+.ultimo-p{
+    margin-top: 5px;
+    color: var(--gray-500);
+    font: var(--text-md);
+    margin-bottom: 48px;
+}
+
+#zero{
+    margin-top: 0;
+}
+.zero-b{
+    margin-bottom: 0;
+}
+
+.contact-box{
+    width: 400px;
+    height: 320px;
+    margin-bottom: 200px;
+
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contact-card{
+    gap: 16px;
+    width: 400px;
+    height: 68px;
+    background-color: var(--gray-300);
+    border-radius: 5px;
+}
+.contact-card:hover{
+    border: 1px solid var(--blue);
+}
+
+.medio{
+ color: var(--gray-600);
+ font: var(--text-md);
+}
+
+#arruma{
+    margin-left: 176px;
+}
+
+.margem-8{
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+a{
+    text-decoration: none;
+}
