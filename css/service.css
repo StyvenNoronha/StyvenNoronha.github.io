@@ -24,6 +24,7 @@
 
 @media only screen and (max-width: 25rem) {
   .service-tag{
+    flex-direction: column;
     width: 100px;
     gap: 1rem;
     

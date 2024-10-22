@@ -31,7 +31,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+
   background-image: url("../assets/Background_Intro.png");
+  
   background-size: cover;
 }
 
@@ -51,4 +54,10 @@ body {
 
 .text-centro {
   text-align: center;
+}
+@media only screen and (max-width: 25rem){
+  body{
+    background-image: none;
+    background-color: #0d0e11;
+  }
 }
