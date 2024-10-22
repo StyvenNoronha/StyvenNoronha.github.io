@@ -15,15 +15,15 @@
   --gray-500: #c0c4ce;
   --gray-600: #e2e4e9;
   --font-family-asap: "Asap", sans-serif;
-  --title-lg: 56px/120% var(--font-family-asap);
-  --title-md: 24px/120% var(--font-family-asap);
-  --title-sm: 16px/120% var(--font-family-asap);
+  --title-lg: 3.5rem/120% var(--font-family-asap);
+  --title-md: 1.5rem/120% var(--font-family-asap);
+  --title-sm: 2rem/120% var(--font-family-asap);
 
   --font-family-inconsolata: "Inconsolata", monospace;
-  --subtitle: 20px/120% var(--font-family-inconsolata);
+  --subtitle: 1.25rem/120% var(--font-family-inconsolata);
 
   --font-family-maven: "Maven Pro", sans-serif;
-  --text-md: 16px/140% var(--font-family-maven);
+  --text-md: 1rem/140% var(--font-family-maven);
   --text-sm: 14px/140% var(--font-family-maven);
 }
 
@@ -31,18 +31,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--gray-200);
+  background-image: url("../assets/Background_Intro.png");
+  background-size: cover;
+}
 
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-}
-#image{
-  background-position: left;
-  object-fit: cover; 
-}
 .flex {
   display: flex;
 }
@@ -51,13 +43,12 @@ body {
   height: 100vh;
   flex-direction: column;
   align-items: center;
-  
 }
 
-.color-red{
+.color-red {
   color: var(--red);
 }
 
-.text-centro{
+.text-centro {
   text-align: center;
 }

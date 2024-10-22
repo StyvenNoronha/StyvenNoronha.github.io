@@ -1,60 +1,59 @@
-.contact{
-    margin-top: 128px;
-    
+.contact {
+  margin-top: 8rem;
 }
 
-.roxo{
-    color: var(--purple);
+.roxo {
+  color: var(--purple);
 }
 
-.ultimo-p{
-    margin-top: 5px;
-    color: var(--gray-500);
-    font: var(--text-md);
-    margin-bottom: 48px;
+.ultimo-p {
+  margin-top: 5px;
+  color: var(--gray-500);
+  font: var(--text-md);
+  margin-bottom: 3rem;
 }
 
-#zero{
-    margin-top: 0;
+#zero {
+  margin-top: 0;
 }
-.zero-b{
-    margin-bottom: 0;
-}
-
-.contact-box{
-    width: 400px;
-    height: 320px;
-    margin-bottom: 200px;
-
-    flex-direction: column;
-    gap: 16px;
+.zero-b {
+  margin-bottom: 0;
 }
 
-.contact-card{
-    gap: 16px;
-    width: 400px;
-    height: 68px;
-    background-color: var(--gray-300);
-    border-radius: 5px;
-}
-.contact-card:hover{
-    border: 1px solid var(--blue);
+.contact-box {
+  height: 20rem;
+  margin-bottom: 12.5rem;
+
+  flex-direction: column;
+
 }
 
-.medio{
- color: var(--gray-600);
- font: var(--text-md);
+.contact-card {
+  width: 25rem;
+  height: 4.25rem;
+  background-color: var(--gray-300);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.contact-card:hover {
+  border: 1px solid var(--blue);
 }
 
-#arruma{
-    margin-left: 176px;
+.medio {
+  color: var(--gray-600);
+  font: var(--text-md);
 }
 
-.margem-8{
-    padding-left: 10px;
-    padding-top: 8px;
+.margem-8 {
+  padding-left: 0.625rem;
+  padding-top:0.5rem;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 25rem){
+  .contact-card{
+    width: 20rem;
+  }  
 }

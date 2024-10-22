@@ -1,56 +1,72 @@
-h5{
-    font: var(--text-md);
-    color: var(--gray-500);
+h5 {
+  font: var(--text-md);
+  color: var(--gray-500);
 }
 
-.subtitle{
+.subtitle {
   margin-top: 72px;
   font: var(--subtitle);
 }
 
-.text-md{
+.text-md {
   color: var(--gray-600);
   font: var(--text-md);
   font-weight: bold;
-  margin-bottom: 56px;
+  margin-bottom: 3rem;
 }
 
-.project{
-  width: 1040px;
-  height: 584px;
-  gap: 24px;
+.project {
+  height: 36.5rem;
+  gap: 1rem;
   display: flex;
   flex-wrap: wrap;
 }
 
-.card{
-  gap: 24px;
+.card {
   width: 330px;
   height: 280px;
   background-color: var(--gray-300);
   border-radius: 5px;
 }
 
-.card:hover{
+.card:hover {
   border: 1px solid var(--gray-400);
 }
-.thumbnail{
+
+.thumbnail {
   margin-top: 10px;
-  width: 306px;
-  height: 156px;
+  width: 19.375rem;
   border-radius: 5px;
   object-fit: cover;
 }
-.project-title{
-  text-align: left;
+.project-title {
+  text-align: center;
   margin: 15px 0px 0px 0px;
   font: var(--text-sm);
   color: var(--gray-600);
   font-weight: 900;
 }
-.project-subtitle{
-  text-align: left;
+.project-subtitle {
+  text-align: center;
   font: var(--text-sm);
   color: var(--gray-500);
   margin: 0px;
+}
+@media only screen and (max-width: 25rem) {
+  .card {
+    width: 10.625rem;
+    height: 9.375rem;
+  }
+  .thumbnail {
+    width: 10.3125rem;
+  }
+  .project-title {
+    font-size: 10px;
+  }
+  .project-subtitle {
+    display: none;
+  }
+  .project {
+    margin-right: 1rem;
+  }
 }
