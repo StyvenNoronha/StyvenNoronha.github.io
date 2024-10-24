@@ -23,6 +23,9 @@
 }
 
 @media only screen and (max-width: 25rem) {
+  .service{
+    width: 0;
+  }
   .service-tag{
     flex-direction: column;
     width: 100px;
