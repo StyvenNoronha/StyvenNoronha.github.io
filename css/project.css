@@ -23,8 +23,8 @@ h5 {
 }
 
 .card {
-  width: 330px;
-  height: 280px;
+  width: 20.625rem;
+  height: 17.5rem;
   background-color: var(--gray-300);
   border-radius: 5px;
 }
@@ -55,7 +55,6 @@ h5 {
 @media only screen and (max-width: 25rem) {
   .card {
     width: 10.625rem;
-    height: 9.375rem;
   }
   .thumbnail {
     width: 10.3125rem;
@@ -63,10 +62,15 @@ h5 {
   .project-title {
     font-size: 10px;
   }
-  .project-subtitle {
-    display: none;
-  }
   .project {
     margin-right: 1rem;
+    flex-direction: row;
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  img {
+    display: none;
   }
 }
